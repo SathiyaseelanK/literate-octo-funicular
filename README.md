@@ -1,52 +1,59 @@
-# Introduction to Git
+# SampleAngularApp
 
-_Use Git version control to work on a game using command line (CLI) and VS Code._
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
 
-## Welcome
+## Development server
 
-- **Who is this for**: Beginner developers who want to learn Git version control
-- **What you'll learn**: Fundamental Git concepts including commits, branches, history, and collaboration basics
-- **What you'll build**: You'll create a Git repository, add a sample code, then develop some simple features.
-- **Prerequisites**:
+To start a local development server, run:
 
-  - No prior Git or version control experience required.
-  - Recommended: Basic familiarity with Command Line Interfaces (CLI)
-  - Recommended: Basic familiarity with Visual Studio Code.
+```bash
+ng serve
+```
 
-- **How long**: This exercise takes less than 60 minutes to complete.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-In this exercise, you will:
+## Code scaffolding
 
-1. Understand what version control is and why developers use it.
-1. Configure your Git identity.
-1. Create your first repository and make commits.
-1. View project history and compare file changes.
-1. Work with branches to experiment safely.
-1. Learn about Git collaboration concepts.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-### How to start this exercise
+```bash
+ng generate component component-name
+```
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=introduction-to-git&owner=%40me&name=skills-introduction-to-git&description=Exercise:+Introduction+to+Git&visibility=public)
+```bash
+ng generate --help
+```
 
-<details>
-<summary>Having trouble? 🤷</summary><br/>
+## Building
 
-When copying the exercise, we recommend the following settings:
+To build the project run:
 
-- For owner, choose your personal account or an organization to host the repository.
+```bash
+ng build
+```
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+## Running unit tests
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+```bash
+ng test
+```
 
-</details>
+## Running end-to-end tests
 
----
+For end-to-end (e2e) testing, run:
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
